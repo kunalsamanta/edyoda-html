@@ -13,34 +13,73 @@
         background-color: gray;
         color: aliceblue;
        }
-       ul{
+       .navbar{
         display: flex;
         list-style-type: none;
        }
-       li{
+       .nav-list{
         margin:10px ;
+        padding: 10px;
+        
+       }
+       nav li:hover{
+        background-color: black;
+       }
+       a{
+        color: aliceblue;
        }
     </style>
 </head>
 <body>
     <nav>
-        <ul>
-            <li>Index</li>
-            <li>Food</li>
-            <li>About</li>
+        <ul class="navbar">
+            <li class="nav-list">Index</li>
+            <li class="nav-list">Food</li>
+            <li class="nav-list">About</li>
         </ul>
 
     </nav>
     <h1>Top 5 Favourite Food</h1>
     <ul>
-        <li>Briyani</li>
-        <li> Pizza</li>
-        <li>Chicken kosa</li>
-        <li>Hunddi Mutton</li>
-        <li>Cacke</li>
+        <li><a href="#briyani">Briyani</a></li>
+        <li><a href="#pizza"> Pizza</a></li>
+        <li><a href="#chicken">chicken kosa</a></li>
+        <li><a href="#hundi" >Hundi mutton</a></li>
+        <li><a href="#cake">Cake</a></li>
         
     </ul>
-
+<div>
+    <!-- BRIYANI -->
+    <section id="briyani">
+        <img src="https://1.bp.blogspot.com/-d842zVayWag/XqEL1mfKjOI/AAAAAAAAE7c/94Mol72Gtsc_JdP0zpcq807SQTX_OgyygCNcBGAsYHQ/s1600/KolkataBiryani.jpg"
+         alt="Briyani picture">
+         <h2>Briyani</h2>
+    </section>
+    <!--pizza-->
+    <section id="pizza">
+        <img src="https://img.freepik.com/free-photo/top-view-pepperoni-pizza-with-mushroom-sausages-bell-pepper-olive-corn-black-wooden_141793-2158.jpg?w=2000" 
+        alt="Pizza picture" />
+        <h2>Pizaa</h2>
+    </section>
+    <!--Chicken kosa-->
+    <section id="chicken">
+        <img src="https://i0.wp.com/notoutofthebox.in/wp-content/uploads/2013/12/ck2.jpg"
+        alt="Chicken kosa"/>
+        <h2>Chicken Kosha</h2>
+    </section>
+    <!--Hundi chicken-->
+    <section id="hundi">
+        <img src="https://i.ytimg.com/vi/5Zr665nbqaQ/maxresdefault.jpg"
+        alt="Hundi Mutton" />
+        <h2>Hundi Mutton</h2>
+    </section>
+    <!-- CACKE -->
+    <section id="cake">
+        <img src="https://assets.winni.in/c_limit,dpr_1,fl_progressive,q_80,w_1000/74421_belgium-chocolate-truffle-cake.jpeg"
+        alt="cake" />
+        <h2>Cake</h2>
+    </section>
+</div>
     
 </body>
 </html>
